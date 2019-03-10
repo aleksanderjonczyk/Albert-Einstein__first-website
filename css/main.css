@@ -93,4 +93,14 @@ background-size: 100% 5px, auto;
 
 .sekcja.zdjecia {
   background-color: #635963;
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  padding-left: 135px;
+  padding-top: 42px;
+  text-align: center;
+  height: 700;
+}
+.zdj {
+  width: 150px;
+  height: 200px;
 }
